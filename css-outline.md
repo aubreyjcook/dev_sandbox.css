@@ -16,7 +16,7 @@ CSS stands for Cascading Style Sheets. It is a markup language that is used to s
 
 CSS describes how HTML elements should be displayed. CSS is interpreted by web browsers to render the style of an HTML document.
 
-Web browsers view HTML documents as content, and CSS as style. A simple analog is that of a text document or the physical paper text of a book, magazine, or page. When viewing text in a raw text viewer like Notepad, text is displayed as raw content, and this content can be **organized** into a hierarchy using a markup language like HTML or XML (which utilize two different approachs to organizing content,) but the visible style and representation of the content is determined by the program displaying the content, altering things like font, text color, size, and other visual properties.
+Web browsers view HTML documents as content, and CSS as style. A simple analog is that of a text document or the physical paper raw text of a book, magazine, or page. When viewing text in a raw text viewer like Notepad, text is displayed as raw content, and this content can be **organized** into a hierarchy using a markup language like HTML or XML (which utilize two different approachs to organizing content,) but the visible style and representation of the content is determined by the program displaying the content, altering things like font, text color, size, and other visual properties.
 
 We will not go into the details of HTML or XML in this outline, but one of the most important aspects of HTML to understand in the context of CSS is the property of **sematics** and **logical properties**
 
@@ -24,9 +24,13 @@ The reason for this is that CSS to a lesser extent can control this, but is not 
 
 #### HTML in relation to CSS
 
+HTML is intended to describe a hierarchal structure that contains content. CSS is a powerful technology that exists within the context of how Web browsers behave when interpreting how to display the appearance of this content. HTML has a completely separate role independent of CSS, but the two languages are nearly inseparable in the context of the World Wide Web.
+
+HTML forms the foundation of the content of a document that CSS alters the appearance of, and so we need to understand some of its fundamental features to understand how CSS interacts with it.
+
 ##### HTML Semantics
 
-**HTML** utilizes sematics to describe the meaning of the content, here are some minimal examples:
+**HTML** utilizes semantics to describe a hierarchical structure in which content is organized, here are some minimal examples:
 
 ```html
 <h1>Heading 1</h1>
@@ -75,7 +79,7 @@ The reason for this is that CSS to a lesser extent can control this, but is not 
 
 **HTML** utilizes logical properties to describe the flow of content as it is displayed, HTML logical properties break down into two main categories: **block** and **inline** elements, as well as a third category of **inline-block** elements.
 
-here are some minimal examples:
+Here are some minimal examples:
 
 ```html
 <div>Block Element</div>
@@ -94,6 +98,90 @@ here are some minimal examples:
 <div style="display: inline-block;">Inline Block Element</div>
 <div style="display: inline-block;">Inline Block Element</div>
 ```
+
+#### HTML and CSS together
+
+The semantic hierarchy of HTML is foundational to the document structure, and logical properties are foundational to the flow of the content. CSS is not intended to alter this structure, in most cases the intention is to use CSS such that the structure of content on a web page is deferred to the HTML as the primary source, but CSS possesses enormous power and features to alter any aspect of the appearance of a web page.
+
+#### CSS Features
+
+CSS is a powerful technology that can be used to style the appearance of a web page in a variety of ways. Here are some of the most important features of CSS:
+
+**Selectors**
+
+**Properties**
+
+**Values**
+
+**Units**
+
+**Colors**
+
+**Backgrounds**
+
+**Borders**
+
+**Margins**
+
+**Padding**
+
+**Dimensions**
+
+**Text**
+
+**Fonts**
+
+**Lists**
+
+**Tables**
+
+**Positioning**
+
+**Display**
+
+**Flexbox**
+
+**Grid**
+
+**Animations**
+
+**Transitions**
+
+**Transforms**
+
+**Filters**
+
+**Variables**
+
+**Media Queries**
+
+**Pseudo-classes**
+
+**Pseudo-elements**
+
+**Specificity**
+
+**Inheritance**
+
+**Cascading**
+
+**Box Model**
+
+**Grid Layout**
+
+**Flexbox Layout**
+
+**Responsive Design**
+
+**Mobile First Design**
+
+**Progressive Enhancement**
+
+**Graceful Degradation**
+
+**Accessibility**
+
+**Performance**
 
 ### Primary Resources
 
